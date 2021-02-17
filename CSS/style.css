@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #000;
+  overflow-wrap: break-word;
+}
+
+.conteiner {
+  margin: auto;
+  margin-top: 46px;
+  margin-bottom: 46px;
+  width: 651px;
+  height: 757px;
+  min-width: 320px;
+  background: url("../IMG/image.png") center top no-repeat rgb(255, 255, 255);
+  border: 1px solid #000;
+}
+
+.chat_log {
+  height: 517px;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.event_to {
+  align-content: start;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  display: flex;
+  padding-top: 20px;
+}
+.event_from {
+  display: flex;
+  padding-top: 20px;
+}
+.massage {
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 10px;
+  min-width: 123px;
+  min-height: 46px;
+  max-width: 470px;
+  background: white;
+  padding: 13px;
+  line-height: 24px;
+}
+.ava {
+  margin-left: 13px;
+  margin-right: 13px;
+  width: 60px;
+  height: 60px;
+  background-image: url("../IMG/image\ 2.png");
+  background-size: 100%;
+  -webkit-clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+.line {
+  background-color: white;
+  border: none;
+  height: 1px;
+}
+.text {
+  margin-left: 29px;
+  height: 129px;
+  width: 590px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
+  color: #696969;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.input_field {
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  height: 210px;
+}
+.button {
+  margin-top: 20px;
+  margin-left: 29px;
+  width: 144px;
+  height: 41px;
+  border-radius: 30px;
+  background-color: #0f54b9;
+  font-size: 20px;
+  color: white;
+  transition-property: background-color;
+  transition-property: color;
+  transition-duration: 500ms;
+  border: 0;
+}
+.button:hover,
+.button:active,
+.button:focus {
+  background-color: #1d7a44;
+  color: #5c1637;
+}
+
+.data {
+  text-align: center;
+}
+
+.data:before {
+  content: "";
+  display: block;
+  width: 290px;
+  height: 1px;
+  background: black;
+}
+
+.data:after {
+  content: "";
+  display: block;
+  width: 290px;
+  height: 1px;
+  background: black;
+  text-align: center;
+}
